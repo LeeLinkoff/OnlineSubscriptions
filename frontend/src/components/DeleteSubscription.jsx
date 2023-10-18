@@ -4,9 +4,9 @@ import DialogActions from '@mui/material/DialogActions';
 import DialogContent from '@mui/material/DialogContent';
 import DialogTitle from '@mui/material/DialogTitle';
 import React, { useState, useEffect } from "react";
-import InputLabel from "@material-ui/core/InputLabel";
-import MenuItem from "@material-ui/core/MenuItem";
-import Select from "@material-ui/core/Select";
+import InputLabel from "@mui/material/InputLabel";
+import MenuItem from "@mui/material/MenuItem";
+import Select from "@mui/material/Select";
 
 
 export default function DeleteSubscription(props) {
@@ -32,7 +32,7 @@ export default function DeleteSubscription(props) {
   useEffect(() => {
 
       const getSubscriptions = async () => {
-        const res = await fetch("http://127.0.0.1:81/subscriptions", {
+        const res = await fetch("https://onlinesubscriptionsapi-8fec69ac21bc.herokuapp.com/subscriptions", {
             method: 'GET',
             headers: {'Content-Type': 'application/json'},
         })

@@ -29,7 +29,7 @@ export default function EditSubscription(props) {
 
   useEffect(() => {
       const getSubscriptions = async () => {
-        const res = await fetch("http://127.0.0.1:81/subscriptions", {
+        const res = await fetch("https://onlinesubscriptionsapi-8fec69ac21bc.herokuapp.com/subscriptions", {
             method: 'GET',
             headers: {'Content-Type': 'application/json'},
         })
@@ -80,7 +80,7 @@ export default function EditSubscription(props) {
               onClose={handleCancel}
               aria-labelledby="alert-dialog-title"
               aria-describedby="alert-dialog-description">
-        <form method='POST' action={"http://127.0.0.1:81/subscriptions/"+ selectedId}>
+        <form method='POST' action={"https://onlinesubscriptionsapi-8fec69ac21bc.herokuapp.com/subscriptions/"+ selectedId}>
             <DialogTitle id="alert-dialog-title">
               {"edit a subscription"}
             </DialogTitle>
