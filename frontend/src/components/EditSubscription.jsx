@@ -82,10 +82,10 @@ export default function EditSubscription(props) {
               aria-describedby="alert-dialog-description">
         <form method='POST' action={"https://onlinesubscriptionsapi-8fec69ac21bc.herokuapp.com/subscriptions/"+ selectedId}>
             <DialogTitle id="alert-dialog-title">
-              {"edit a subscription"}
+              {"Edit a Subscription"}
             </DialogTitle>
             <DialogContent>
-              <InputLabel id="select-subscription-label">Services</InputLabel>
+              <InputLabel id="select-subscription-label">Subscriptions</InputLabel>
               <Select labelId="select-subscription-label"
                       id="select-subscription-filled"
                       value={selectedId}

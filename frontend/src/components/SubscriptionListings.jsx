@@ -31,11 +31,9 @@ export default function SubscriptionListings(props) {
         open={open}
         onClose={handleClose}
         aria-labelledby="alert-dialog-title"
-        aria-describedby="alert-dialog-description"
-
-      >
+        aria-describedby="alert-dialog-description">
         <DialogTitle id="alert-dialog-title">
-          {"subscription listings"}
+          {"Subscription Listings"}
         </DialogTitle>
         <DialogContent>
           <TableContainer component={Paper}>

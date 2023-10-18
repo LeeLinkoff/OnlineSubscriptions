@@ -28,7 +28,7 @@ export default function AddSubscription(props) {
       >
         <form method='POST' action='https://onlinesubscriptionsapi-8fec69ac21bc.herokuapp.com/subscriptions'>
         <DialogTitle id="alert-dialog-title">
-          {"add a subscription"}
+          {"Add a Subscription"}
         </DialogTitle>
         <DialogContent>
             <TextField id="name" label="Name" name="name" variant="outlined" margin="normal" />
@@ -37,7 +37,7 @@ export default function AddSubscription(props) {
                 <br></br>
                 <TextField id="frequency" label="Frequency" name="frequency" variant="outlined" margin="normal" />
                 <br></br>
-                <TextField id="company_id" label="Company_id" name="company_id" variant="outlined" margin="normal" />
+                <TextField id="company_id" label="Company ID" name="company_id" variant="outlined" margin="normal" />
                 <br></br>
             </DialogContent>
         <DialogActions>

@@ -55,16 +55,15 @@ export default function DeleteSubscription(props) {
 
       >
         <DialogTitle id="alert-dialog-title">
-          {"delete a subscription"}
+          {"Delete a Subscription"}
         </DialogTitle>
         <DialogContent>
           <InputLabel id="select-subscription">Subscriptions</InputLabel>
-        <Select
-      labelId="select-subscription-filled-label"
-      id="select-subscription-filled"
-      value={selectedSubscription}
-      onChange={(ev) => setSelectedSubscription(ev.target.value)}
-    >
+        <Select labelId="select-subscription-filled-label"
+                id="select-subscription-filled"
+                value={selectedSubscription}
+                onChange={(ev) => setSelectedSubscription(ev.target.value)}
+                sx={{ minWidth: 160 }}>
       <MenuItem key={0} value="">
         <em>None</em>
       </MenuItem>
