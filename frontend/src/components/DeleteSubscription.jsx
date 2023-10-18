@@ -15,7 +15,7 @@ export default function DeleteSubscription(props) {
   const [selectedSubscription, setSelectedSubscription] = useState("");
 
     async function handleRemove() {
-       const res = await fetch("http://127.0.0.1:81/subscriptions/" + selectedSubscription, {
+       const res = await fetch("https://onlinesubscriptionsapi-8fec69ac21bc.herokuapp.com/subscriptions/" + selectedSubscription, {
             method: 'DELETE',
             headers: {'Content-Type': 'application/json'},
         })

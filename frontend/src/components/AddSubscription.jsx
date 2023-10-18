@@ -30,7 +30,7 @@ export default function AddSubscription(props) {
         aria-labelledby="alert-dialog-title"
         aria-describedby="alert-dialog-description"
       >
-        <form method='POST' action='http://127.0.0.1:81/subscriptions'>
+        <form method='POST' action='https://onlinesubscriptionsapi-8fec69ac21bc.herokuapp.com/subscriptions'>
         <DialogTitle id="alert-dialog-title">
           {"add a subscription"}
         </DialogTitle>

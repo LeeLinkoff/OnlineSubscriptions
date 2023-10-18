@@ -42,7 +42,7 @@ export default function EditSubscription(props) {
 
   async function getSelectedSubscription(selectId){
       console.log("getSelectedSubscription(), selectId: " + selectId);
-      const res = await fetch("http://127.0.0.1:81/subscriptions/" + selectId, {
+      const res = await fetch("https://onlinesubscriptionsapi-8fec69ac21bc.herokuapp.com/subscriptions/" + selectId, {
               method: 'GET',
               headers: {'Content-Type': 'application/json'},
           })

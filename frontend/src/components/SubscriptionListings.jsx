@@ -15,7 +15,7 @@ import TableHead from '@mui/material/TableHead';
 import TableRow from '@mui/material/TableRow';
 import Paper from '@mui/material/Paper';
 
-const response = await fetch('http://127.0.0.1:81/subscriptions');
+const response = await fetch('https://onlinesubscriptionsapi-8fec69ac21bc.herokuapp.com/subscriptions');
 var rows = await response.json();
 
 export default function SubscriptionListings(props) {
