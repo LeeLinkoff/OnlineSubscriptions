@@ -1,0 +1,17 @@
+* FrontEnd:
+  > https://leelinkoff.github.io/OnlineSubscriptions/
+  > https://github.com/LeeLinkoff/OnlineSubscriptions
+  > Branch: gh-pages
+  > D:\MISC\PROJECTS - Misc\React\OnlineSubscriptions\frontend
+  > D:\MISC\PROJECTS - Misc\React\OnlineSubscriptions\Github Pages - Host
+
+
+
+
+* Backend API:
+  > https://onlinesubscriptionsapi-8fec69ac21bc.herokuapp.com/subscriptions
+  > https://github.com/LeeLinkoff/OnlineSubscriptions/tree/main/backend
+  > https://git.heroku.com/onlinesubscriptionsapi.git
+  > Branch: main
+  > D:\MISC\PROJECTS - Misc\React\OnlineSubscriptions\backend
+  > D:\MISC\PROJECTS - Misc\Heroku Back-End API Hosting
